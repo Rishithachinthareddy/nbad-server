@@ -16,6 +16,7 @@ const jwtMW = exjwt({
 require('dotenv').config();
 
 
+
 var connection = mysql.createConnection({
     host: "ls-38739fe33ec6a5e2c1b2c0355678120bcf5a9002.c3isuc2ousd8.us-east-1.rds.amazonaws.com",
     user: "rishinbadproject",
