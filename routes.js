@@ -24,6 +24,7 @@ var connection = mysql.createConnection({
   });
 
 
+  
 const verifyToken = (req, res, next) => {
     const authorizationHeader = req.headers.authorization;
 
